@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Main {
 
   public static void main(String[] args) {
@@ -6,7 +8,7 @@ class Main {
 
   int seatNumbers[]= {1,2,3,4,5,6,7,8,9,10,12,13,14,15};
 
-  String students[] = {"Zane ","William ","Jake ","Ethan ","Blake ","Ehren","Ryan ","Elijah ","Christian ","Richard ","Ana ","Alexis ","Riley ","Lawren ","Emma"};
+  String students[] = {};
 
    for (int i = 0; i < students.length; i++)
      {
