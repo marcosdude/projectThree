@@ -16,11 +16,12 @@ class Main {
       studentNames[a]  = scan.next();
      //System.out.println(studentNames[] );
     }
-    int count = 0;
+    int coolNumber = 0;
     // loop that prints out student names and numbers
-    while (count <= 14) {
-      System.out.println(studentNames[count] + " is going to sit in sit in seat #" + seatNumbers[count]);
-      count++;
+    while (coolNumber <= 14) {
+      System.out.println(studentNames[coolNumber] + " is going to sit in seat #" + seatNumbers[coolNumber]);
+      coolNumber++;
+
     }
   }
 }
